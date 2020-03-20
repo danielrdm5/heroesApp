@@ -1,9 +1,10 @@
 export class HeroeModel {
     id: string;
-    nombre: string;
-    vivo: boolean;
+    name: string;
+    power: string;
+    alive: boolean;
 
     constructor() {
-        this.vivo = true;
+        this.alive = true;
     }
 }
